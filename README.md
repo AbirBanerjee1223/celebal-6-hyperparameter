@@ -107,7 +107,19 @@ seaborn>=0.11.0
 scikit-learn>=1.0.0
 ```
 
+## Visual Outputs
 
+### Accuracy Improvement
+![Accuracy Improvement](./plots/accuracy_improvement.png)
+
+### Baseline vs Tuned Accuracy
+![Baseline vs Tuned Accuracy](./plots/baseline_vs_tuned_accuracy.png)
+
+### Confusion Matrix
+![Confusion Matrix](./plots/confusion_matrix.png)
+
+### Performance Metrics
+![Performance Metrics](./plots/performance_metrics.png)
 
 ## Expected Results
 
@@ -162,4 +174,5 @@ Recall: 0.9833
 F1 Score: 0.9833
 Best Parameters: {'kernel': 'rbf', 'gamma': 0.007742636826811269, 'C': 35.93813663804626}
 ```
+
 
